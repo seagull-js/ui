@@ -1,6 +1,11 @@
 language: node_js
 node_js:
   - "6"
+script:
+  - npm run test
+after_success:
+  - npm run build-storybook
+  - npm run deploy-storybook
 deploy:
   provider: pages
   skip-cleanup: true
