@@ -1,6 +1,6 @@
 # Seagull UI
 
-[![npm version](https://badge.fury.io/js/%40seagull%2Fui.svg)](https://badge.fury.io/js/%40seagull%2Fcui
+[![npm version](https://badge.fury.io/js/%40seagull%2Fui.svg)](https://badge.fury.io/js/%40seagull%2Fcui)
 [![Build Status](https://travis-ci.org/seagull-js/ui.svg?branch=master)](https://travis-ci.org/seagull-js/ui)
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](http://www.gnu.org/licenses/lgpl-3.0)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
