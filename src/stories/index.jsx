@@ -9,6 +9,7 @@ import { linkTo } from '@storybook/addon-links'
 
 import { Button, Welcome } from '@storybook/react/demo'
 
+import './Block'
 import './H1'
 
 storiesOf('Welcome', module)
