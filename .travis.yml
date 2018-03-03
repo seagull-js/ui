@@ -5,11 +5,4 @@ script:
   - npm run test
 after_success:
   - npm run build-storybook
-  - npm run deploy-storybook
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
-  keep-history: true
-  on:
-    branch: master
+  - npm run deploy-storybook -- --ci
