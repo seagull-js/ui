@@ -14,3 +14,8 @@ components [here](http://seagull-js.github.io/ui)
 All components are written, documented and tested through a tool called
 [Storybook](https://storybook.js.org/). The preview is automatically deployed
 to [GitHub Pages](http://seagull-js.github.io/ui) on every commit.
+
+## Tests
+
+Structural tests are performed through StoryShots, a plugin for Storybook that
+uses Jest and executes the stories already written for storybook itself.

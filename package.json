@@ -8,7 +8,7 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "rm -rf dist && mkdir dist && babel src/components -d dist",
-        "test": "echo \"Error: no test specified\" && exit 0",
+        "test": "CI=true react-scripts test --env=jsdom --updateSnapshot",
         "storybook": "start-storybook -p 9009 -s public",
         "build-storybook": "build-storybook -s public -o .out",
         "deploy-storybook": "storybook-to-ghpages"
@@ -31,6 +31,7 @@
     "devDependencies": {
         "@storybook/addon-actions": "^3.3.14",
         "@storybook/addon-links": "^3.3.14",
+        "@storybook/addon-storyshots": "^3.3.14",
         "@storybook/addons": "^3.3.14",
         "@storybook/react": "^3.3.14",
         "@storybook/storybook-deployer": "^2.3.0",
@@ -41,6 +42,7 @@
         "babel-preset-react": "^6.24.1",
         "react": "^16.2.0",
         "react-dom": "^16.2.0",
-        "react-scripts": "1.1.1"
+        "react-scripts": "1.1.1",
+        "react-test-renderer": "^16.2.0"
     }
 }
