@@ -1,8 +1,10 @@
 {
     "name": "@seagull/ui",
+    "description": "visual components for seagull apps",
     "version": "0.1.0",
     "homepage": "http://seagull-js.github.io/ui",
-    "dependencies": {},
+    "author": "Maximilian Stroh <hisako1337@gmail.com>",
+    "license": "LGPL-3.0",
     "scripts": {
         "start": "react-scripts start",
         "build": "rm -rf dist && mkdir dist && babel src/components -d dist",
@@ -11,6 +13,21 @@
         "build-storybook": "build-storybook -s public -o .out",
         "deploy-storybook": "storybook-to-ghpages"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/seagull-js/ui.git"
+    },
+    "bugs": {
+        "url": "https://github.com/seagull-js/ui/issues"
+    },
+    "keywords": [
+        "web components",
+        "react",
+        "react.js",
+        "seagull",
+        "the seagull framework",
+        "storybook"
+    ],
     "devDependencies": {
         "@storybook/addon-actions": "^3.3.14",
         "@storybook/addon-links": "^3.3.14",
