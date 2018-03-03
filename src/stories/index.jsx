@@ -2,14 +2,14 @@ import React from 'react'
 
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
+
+// https://github.com/storybooks/storybook/tree/master/addons/knobs
 import { withKnobs, text, boolean, number } from '@storybook/addon-knobs/react'
 import { linkTo } from '@storybook/addon-links'
 
 import { Button, Welcome } from '@storybook/react/demo'
 
-import { H1 } from '../components/H1'
-
-// https://github.com/storybooks/storybook/tree/master/addons/knobs
+import './H1'
 
 storiesOf('Welcome', module)
   .addDecorator(withKnobs)
@@ -23,7 +23,3 @@ storiesOf('Button', module)
   .add('with some emoji', () => (
     <Button onClick={action('clicked')}> 😀😎👍💯 </Button>
   ))
-
-storiesOf('H1', module)
-  .addDecorator(withKnobs)
-  .add('basic usage', () => <H1> Headline! </H1>)
