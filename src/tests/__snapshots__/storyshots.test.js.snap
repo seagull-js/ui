@@ -1,5 +1,110 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Block basic usage 1`] = `
+<div
+  style={
+    Object {
+      "border": "1px solid red",
+    }
+  }
+>
+  <div
+    style={Object {}}
+  >
+    <div
+      style={
+        Object {
+          "boxSizing": "border-box",
+          "marginLeft": "auto",
+          "marginRight": "auto",
+          "maxWidth": "960px",
+          "paddingLeft": "15px",
+          "paddingRight": "15px",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "border": "1px solid blue",
+          }
+        }
+      >
+        Hello World
+      </div>
+      <span
+        style={
+          Object {
+            "clear": "both",
+            "display": "table",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Block with background color 1`] = `
+<div
+  style={
+    Object {
+      "border": "1px solid red",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "background": "linear-gradient(350deg,  #0d6abe 0%,#a1bee8 50%,#c99eca 100%)",
+        "color": "white",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "boxSizing": "border-box",
+          "marginLeft": "auto",
+          "marginRight": "auto",
+          "maxWidth": "960px",
+          "paddingLeft": "15px",
+          "paddingRight": "15px",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "border": "1px solid blue",
+          }
+        }
+      >
+        <p>
+          Hello World
+        </p>
+        <p>
+          Hello World
+        </p>
+        <p>
+          Hello World
+        </p>
+      </div>
+      <span
+        style={
+          Object {
+            "clear": "both",
+            "display": "table",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Button with some emoji 1`] = `
 <button
   className="css-1yjiefr"
@@ -14,13 +119,22 @@ exports[`Storyshots Button with text 1`] = `
   className="css-1yjiefr"
   onClick={[Function]}
 >
-   Hello Button 
+  Hello World
 </button>
 `;
 
 exports[`Storyshots H1 basic usage 1`] = `
-<h1>
-   Headline! 
+<h1
+  style={
+    Object {
+      "-webkit-background-clip": "text",
+      "-webkit-text-fill-color": "transparent",
+      "backgroundImage": "linear-gradient(350deg,  #0d6abe 10%,#c99eca 100%)",
+      "fontFamily": "Tahoma, Geneva, sans-serif",
+    }
+  }
+>
+  Hello World
 </h1>
 `;
 

@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react'
 import { withKnobs, text, boolean, number } from '@storybook/addon-knobs/react'
 
 // load components to test
-import { Block } from '../components/Block'
+import { Block } from '../components'
 
 // prepare stories
 const stories = storiesOf('Block', module).addDecorator(withKnobs)
