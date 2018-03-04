@@ -6,13 +6,16 @@ const style = {
   '-webkit-background-clip': 'text',
   '-webkit-text-fill-color': 'transparent',
   fontFamily: 'Tahoma, Geneva, sans-serif',
+  fontSize: 36,
   marginBottom: 5,
 }
 
 const styleInverse = {
   color: 'white',
   fontFamily: 'Tahoma, Geneva, sans-serif',
+  fontSize: 36,
   marginBottom: 5,
+  textShadow: '0px 0px 1px #000',
 }
 
 const border = {
