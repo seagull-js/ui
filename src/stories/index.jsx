@@ -12,6 +12,7 @@ import { Button, Welcome } from '@storybook/react/demo'
 import './Block'
 import './H1'
 import './H2'
+import './H3'
 import './Text'
 
 storiesOf('Welcome', module)
