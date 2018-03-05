@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 
 const style = {
   backgroundImage: 'linear-gradient(350deg,  #0d6abe 10%,#c99eca 100%)',
-  '-webkit-background-clip': 'text',
-  '-webkit-text-fill-color': 'transparent',
+  WebkitBackgroundClip: 'text',
+  WebkitTextFillColor: 'transparent',
   fontFamily: 'Tahoma, Geneva, sans-serif',
   fontSize: 36,
   marginBottom: 5,
