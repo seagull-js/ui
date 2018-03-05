@@ -5,6 +5,7 @@ const style = lead => ({
   fontFamily: 'Tahoma, Geneva, sans-serif',
   fontSize: lead ? 18 : 14,
   lineHeight: 1.5,
+  margin: '5px 0',
 })
 
 const styleInverse = lead => ({
@@ -13,6 +14,7 @@ const styleInverse = lead => ({
   textShadow: '0px 0px 1px #000',
   fontSize: lead ? 18 : 14,
   lineHeight: 1.5,
+  margin: '5px 0',
 })
 
 const Text = ({ lead, inverse, children }) => (
