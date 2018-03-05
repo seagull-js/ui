@@ -5,13 +5,18 @@ import { Container } from 'react-grid-system'
 const background =
   'linear-gradient(350deg,  #0d6abe 0%,#a1bee8 50%,#c99eca 100%)'
 
+const css = {
+  padding: '15px 0',
+}
+
 const inverseCss = {
   background,
   color: 'white',
+  padding: '15px 0',
 }
 
 const Block = ({ inverse, children }) => (
-  <div style={inverse ? inverseCss : {}}>
+  <div style={inverse ? inverseCss : css}>
     <Container>{children}</Container>
   </div>
 )

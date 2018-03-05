@@ -2,7 +2,7 @@
     "name": "@seagull/ui",
     "main": "dist/index.js",
     "description": "visual components for seagull apps",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "homepage": "http://seagull-js.github.io/ui",
     "author": "Maximilian Stroh <hisako1337@gmail.com>",
     "license": "LGPL-3.0",
