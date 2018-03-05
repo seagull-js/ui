@@ -20,10 +20,12 @@ const styleInverse = {
 
 const border = {
   borderBottom: '1px solid #0d6abe',
+  marginBottom: 10,
 }
 
 const borderInverse = {
   borderBottom: '1px solid white',
+  marginBottom: 10,
 }
 
 const H3 = ({ inverse, children }) => (
