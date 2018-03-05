@@ -11,6 +11,7 @@ import { Button, Welcome } from '@storybook/react/demo'
 
 import './Alert'
 import './Block'
+import './Button'
 import './Headlines'
 import './Text'
 
@@ -18,11 +19,11 @@ storiesOf('Welcome', module)
   .addDecorator(withKnobs)
   .add('to Storybook', () => <Welcome showApp={linkTo('Button')} />)
 
-storiesOf('Button', module)
-  .addDecorator(withKnobs)
-  .add('with text', () => (
-    <Button onClick={action('clicked')}>{text('Label', 'Hello World')}</Button>
-  ))
-  .add('with some emoji', () => (
-    <Button onClick={action('clicked')}> 😀😎👍💯 </Button>
-  ))
+// storiesOf('Button', module)
+//   .addDecorator(withKnobs)
+//   .add('with text', () => (
+//     <Button onClick={action('clicked')}>{text('Label', 'Hello World')}</Button>
+//   ))
+//   .add('with some emoji', () => (
+//     <Button onClick={action('clicked')}> 😀😎👍💯 </Button>
+//   ))
