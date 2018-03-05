@@ -6,6 +6,8 @@ const style = {
   border: '2px dotted #d2d278',
   background: '#fffdb4',
   padding: '0px 10px',
+  margin: '15px 0',
+  color: 'black',
 }
 
 const Alert = ({ title, children }) => (
